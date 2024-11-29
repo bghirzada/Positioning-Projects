@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    height: 60px;  
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.yellowAlone{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+
+
+}
+
+.yellowBig{
+    background-color: yellow;
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    left: 300px;
+    top: 5px;
+
+
+    .blueWithRed{
+        background-color: lightskyblue;
+        width: 200px;
+        height: 40px;
+        position: absolute;
+        bottom: 2px;
+        left: 70px;
+
+        .red{
+            background-color: red;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 0;
+            right: 0;
+
+        }
+
+
+    }
+
+
+    .blueAloneBig{
+        background-color: lightskyblue;
+        width: 200px;
+        height: 40px;
+        position: absolute;
+        bottom: 0;
+        right: 150px;
+
+    }
+
+    .blueAloneSmall{
+        background-color: lightskyblue;
+        width: 70px;
+        height: 40px;
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+
+    }
+
+}
+
+.yellowLast{
+    background-color: yellow;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+
+    .greenSquare{
+        border: 3px solid green;
+        width: 50px;
+        height: 40px;
+        position: absolute;
+        top: 2px;
+        left: 12px;
+
+
+    }
+
+}
+

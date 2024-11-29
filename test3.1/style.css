@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(79, 79, 213);
+    height: 120px;
+    color: white;
+
+   .headerTop{
+    padding: 8px 120px 8px 80px;
+    display: flex;
+
+
+        .contact{   
+            width: 50%;
+            display: flex;
+            gap: 18px;
+
+        }
+
+        .icons{
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+            gap: 16px;
+        }
+    }
+
+
+
+    .headerBottom{
+        display: flex;
+        padding: 20px 120px 0 80px;
+
+        ul{
+            width: 100%;
+            display: flex;
+            list-style: none;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 24px;
+        }
+
+    }
+
+    
+
+    
+}
